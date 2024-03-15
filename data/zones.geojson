@@ -1,0 +1,445 @@
+{
+    "type": "FeatureCollection",
+    "name": "Sample GeoZOnes",
+    "metadata": {
+        "provider": "LFV",
+        "issued": "2024-05-01T15:59:59Z",
+        "validFrom": "2024-04-02T15:59:59Z",
+        "validTo": "2024-06-02T15:59:59Z",
+        "description": "",
+        "otherGeoid": "",
+        "technicalLimitation": ""
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            16.054854336929484,
+                            58.55191692073586
+                        ],
+                        [
+                            16.016403134997173,
+                            58.54471117923396
+                        ],
+                        [
+                            16.03400403729013,
+                            58.532698317262
+                        ],
+                        [
+                            16.0911392739642,
+                            58.522519496087796
+                        ],
+                        [
+                            16.14312963150648,
+                            58.53057797312246
+                        ],
+                        [
+                            16.180768484102188,
+                            58.53962388137177
+                        ],
+                        [
+                            16.195119989048756,
+                            58.55417724020657
+                        ],
+                        [
+                            16.124716379876922,
+                            58.56688882051907
+                        ],
+                        [
+                            16.080037166364026,
+                            58.57691359026194
+                        ],
+                        [
+                            16.054854336929484,
+                            58.55191692073586
+                        ]
+                    ]
+                ],
+                "layer": {
+                    "upper": 300,
+                    "upperRef": "WGS84",
+                    "lower": 50,
+                    "lowerRef": "AGL",
+                    "uom": "m"
+                }
+            },
+            "properties": {
+                "identifier": "ES1234",
+                "country": "SWE",
+                "name": [
+                    {
+                        "name": "English name",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "name": "Svenskt namn",
+                        "lang": "se-SE"
+                    }
+                ],
+                "variant": "CUSTOMIZED",
+                "reason": [
+                    "AIR_TRAFFIC",
+                    "PRIVACY"
+                ],
+                "type": "REQ_AUTHORIZATION",
+                "zoneAuthority": [
+                    {
+                        "purpose": "AUTHORIZATION",
+                        "contactName": "Kalle",
+                        "email": "test@test.test",
+                        "siteURL": "https://www.transportstyrelsen.se/",
+                        "phone": "1234-123456",
+                        "intervalBefore": "P3D"
+                    }
+                ],
+                "dataSource": [
+                    {
+                        "creationDateTime": "2024-03-02T15:30:00.00Z",
+                        "updateDateTime": "2024-03-03T15:30:00.00Z",
+                        "originator": "ERTYU"
+                    }
+                ],
+                "limitedApplicability": [
+                    {
+                        "startDateTime": "2024-03-01T07:00:00.00Z",
+                        "endDateTime": "2024-04-01T15:30:00.00Z",
+                        "schedule": [
+                            {
+                                "day": [
+                                    "ANY"
+                                ],
+                                "startTime": "16:00:00Z",
+                                "endTime": "17:00:00Z"
+                            },
+                            {
+                                "day": [
+                                    "SUN"
+                                ],
+                                "startTime": "10:00:00Z",
+                                "endTime": "12:00:00Z"
+                            }
+                        ]
+                    }
+                ],
+                "restrictionConditions": [
+                    {
+                        "text": "A text about restrictions",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "En text om restriktioner",
+                        "lang": "se-SE"
+                    }
+                ],
+                "otherReasonInfo": [
+                    {
+                        "text": "Another reason for this",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "En annan anledning",
+                        "lang": "se-SE"
+                    }
+                ],
+                "message": [
+                    {
+                        "text": "Why it is like this",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "Varför området är undantaget",
+                        "lang": "se-SE"
+                    }
+                ],
+                "extendedProperties": "lite extra info",
+                "upper": 300,
+                "lower": 50
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.636866,
+                    57.122901
+                ],
+                "layer": {
+                    "upper": 300,
+                    "upperRef": "AGL",
+                    "lower": 0,
+                    "lowerRef": "AGL",
+                    "uom": "m"
+                },
+                "extent": {
+                    "subType": "Circle",
+                    "radius": 3500.0
+                }
+            },
+            "properties": {
+                "identifier": "ES300",
+                "country": "SWE",
+                "name": [
+                    {
+                        "name": "A fiction circle",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "name": "En fiktiv cirkel",
+                        "lang": "se-SE"
+                    }
+                ],
+                "variant": "COMMON",
+                "reason": [
+                    "OTHER"
+                ],
+                "type": "PROHIBITED",
+                "zoneAuthority": [
+                    {
+                        "purpose": "NOTIFICATION",
+                        "contactName": "Olle",
+                        "email": "test@test.test",
+                        "phone": "1234-123456",
+                        "intervalBefore": "PT6H",
+                        "service": "En service"
+                    }
+                ],
+                "dataSource": [
+                    {
+                        "creationDateTime": "2024-03-02T15:30:00.00Z",
+                        "originator": "YTRW"
+                    }
+                ],
+                "limitedApplicability": [
+                    {
+                        "startDateTime": "2024-03-13T07:00:00.00Z",
+                        "endDateTime": "2024-03-30T07:00:00.00Z",
+                        "schedule": [
+                            {
+                                "day": [
+                                    "ANY"
+                                ],
+                                "startTime": "16:00:00Z",
+                                "endTime": "17:00:00Z"
+                            },
+                            {
+                                "day": [
+                                    "SUN"
+                                ],
+                                "startTime": "10:00:00Z",
+                                "endTime": "12:00:00Z"
+                            }
+                        ]
+                    }
+                ],
+                "otherReasonInfo": [
+                    {
+                        "text": "This is other reason",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "Här finns other reason",
+                        "lang": "se-SE"
+                    }
+                ],
+                "regulationExemption": "NO",
+                "upper": 300,
+                "lower": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            16.265850444477866,
+                            58.596266052797574
+                        ],
+                        [
+                            16.232509886211883,
+                            58.59303582103149
+                        ],
+                        [
+                            16.22513810448473,
+                            58.58439130155486
+                        ],
+                        [
+                            16.244572801765404,
+                            58.5835179990039
+                        ],
+                        [
+                            16.26417503953988,
+                            58.573560809498645
+                        ],
+                        [
+                            16.284950060770942,
+                            58.58054860731585
+                        ],
+                        [
+                            16.291316599535303,
+                            58.591115001271675
+                        ],
+                        [
+                            16.265850444477866,
+                            58.596266052797574
+                        ]
+                    ]
+                ],
+                "layer": {
+                    "upper": 100,
+                    "upperRef": "AGL",
+                    "lower": 50,
+                    "lowerRef": "AGL",
+                    "uom": "m"
+                }
+            },
+            "properties": {
+                "identifier": "ESUAS1",
+                "country": "SWE",
+                "name": [
+                    {
+                        "name": "Norrkoping",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "name": "Norrköping",
+                        "lang": "se-SE"
+                    }
+                ],
+                "variant": "COMMON",
+                "reason": [
+                    "PRIVACY",
+                    "SENSITIVE",
+                    "NOISE",
+                    "NOISE"
+                ],
+                "type": "REQ_AUTHORIZATION",
+                "zoneAuthority": [
+                    {
+                        "purpose": "INFORMATION",
+                        "email": "test@test.test",
+                        "siteURL": "https://www.transportstyrelsen.se/",
+                        "intervalBefore": "P3D"
+                    }
+                ],
+                "dataSource": [
+                    {
+                        "creationDateTime": "2024-03-02T15:30:00.00Z",
+                        "updateDateTime": "2024-03-03T15:30:00.00Z",
+                        "originator": "QWERTY"
+                    }
+                ],
+                "limitedApplicability": [
+                    {
+                        "startDateTime": "2024-01-01T07:00:00.00Z",
+                        "endDateTime": "2024-06-01T15:30:00.00Z"
+                    }
+                ],
+                "restrictionConditions": [
+                    {
+                        "text": "Here are restrictions",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "Här råder restriktioner",
+                        "lang": "se-SE"
+                    }
+                ],
+                "otherReasonInfo": [
+                    {
+                        "text": "Another reason for this",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "En annan anledning",
+                        "lang": "se-SE"
+                    }
+                ],
+                "message": [
+                    {
+                        "text": "Why it is like this",
+                        "lang": "en-GB"
+                    },
+                    {
+                        "text": "Varför området är undantaget",
+                        "lang": "se-SE"
+                    }
+                ],
+                "regulationExemption": "YES",
+                "upper": 100,
+                "lower": 50
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            14.88222222222224,
+                            61.013888888888886
+                        ],
+                        [
+                            14.917777777777827,
+                            60.64194444444439
+                        ],
+                        [
+                            15.70612771646425,
+                            60.695668495355704
+                        ],
+                        [
+                            16.19178098986763,
+                            60.896858727764055
+                        ],
+                        [
+                            15.669474639226257,
+                            61.189658001043455
+                        ],
+                        [
+                            14.88222222222224,
+                            61.013888888888886
+                        ]
+                    ]
+                ],
+                "layer": {
+                    "upper": 500,
+                    "upperRef": "AMSL",
+                    "lower": 0,
+                    "lowerRef": "AMSL",
+                    "uom": "ft"
+                }
+            },
+            "properties": {
+                "identifier": "ES100",
+                "country": "SWE",
+                "name": [
+                    {
+                        "name": "Area1",
+                        "lang": "se-SE"
+                    }
+                ],
+                "variant": "COMMON",
+                "reason": [
+                    "NOISE"
+                ],
+                "type": "CONDITIONAL",
+                "zoneAuthority": [
+                    {
+                        "purpose": "NOTIFICATION",
+                        "email": "test@test.test"
+                    }
+                ],
+                "regulationExemption": "YES",
+                "upper": 500,
+                "lower": 0
+            }
+        }
+    ]
+}
